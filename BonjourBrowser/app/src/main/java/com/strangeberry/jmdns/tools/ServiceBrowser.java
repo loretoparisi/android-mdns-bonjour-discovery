@@ -47,8 +47,7 @@ public class ServiceBrowser implements ServiceListener, ServiceTypeListener {
         // register some well known types
         String list[] = new String[] {
 
-            "musixmatch-connect._tcp.local."
-            /*"_http._tcp.local.",
+            "_http._tcp.local.",
             "_ftp._tcp.local.",
             "_tftp._tcp.local.",
             "_ssh._tcp.local.",
@@ -58,7 +57,7 @@ public class ServiceBrowser implements ServiceListener, ServiceTypeListener {
             "_afpovertcp._tcp.local.",
             "_ichat._tcp.local.",
             "_eppc._tcp.local.",
-            "_presence._tcp.local."*/
+            "_presence._tcp.local."
         };
         
         for (int i = 0 ; i < list.length ; i++) {
